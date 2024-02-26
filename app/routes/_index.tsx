@@ -1,5 +1,4 @@
 import type { MetaFunction } from '@remix-run/node';
-import { FaBeer } from '@react-icons/all-files/fa/FaBeer';
 
 export const meta: MetaFunction = () => {
   return [
@@ -12,10 +11,6 @@ export default function Index() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
       <h1>Welcome to Remix</h1>
-      <h2>
-        This is icon
-        <FaBeer />
-      </h2>
       <ul>
         <li>
           <a
